@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_mvvm_sample/simple_todo/bloc/todo_bloc.dart';
-import 'package:flutter_mvvm_sample/simple_todo/bloc/todo_event.dart';
-import 'package:flutter_mvvm_sample/simple_todo/bloc/todo_state.dart';
+import 'package:flutter_mvvm_sample/todo_screen/bloc/todo_bloc.dart';
+import 'package:flutter_mvvm_sample/todo_screen/bloc/todo_event.dart';
+import 'package:flutter_mvvm_sample/todo_screen/bloc/todo_state.dart';
 
 
 class SimpleTodoScreen extends StatelessWidget {
@@ -80,7 +80,7 @@ class SimpleTodoScreen extends StatelessWidget {
           content: TextField(
             controller: textController,
             decoration: const InputDecoration(
-              hintText: 'Enter simple_todo title',
+              hintText: 'Enter todo_screen title',
             ),
           ),
           actions: [
@@ -118,7 +118,7 @@ class SimpleTodoScreen extends StatelessWidget {
           content: TextField(
             controller: textController,
             decoration: const InputDecoration(
-              hintText: 'Enter simple_todo title',
+              hintText: 'Enter todo_screen title',
             ),
           ),
           actions: [

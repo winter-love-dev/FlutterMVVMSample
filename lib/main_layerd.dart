@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_mvvm_sample/simple_todo/bloc/todo_bloc.dart';
-import 'package:flutter_mvvm_sample/simple_todo/todo_screen.dart';
+import 'package:flutter_mvvm_sample/todo_screen/bloc/todo_bloc.dart';
+import 'package:flutter_mvvm_sample/todo_screen/todo_screen.dart';
 
 void main() {
   runApp(const MyApp());
